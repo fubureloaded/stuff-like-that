@@ -1,0 +1,14 @@
+feature:
+  category:
+    enabled: true
+  amount:
+    enabled: true
+  taxPercentage:
+    enabled: true
+
+product-eligibility:
+  productId: 1234
+  eligibleCategories: A, B
+  minAmount: 200
+  maxAmount: 300
+  taxPercentage: 0.0
