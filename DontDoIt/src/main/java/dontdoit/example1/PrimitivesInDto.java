@@ -11,9 +11,6 @@ import javax.validation.Valid;
 @RestController
 @Slf4j
 public class PrimitivesInDto {
-    /*
-    Also valid for Spring Data Jpa/Hibernate
-     */
 
     @PostMapping("primitives-in-dto")
     public void create(@Valid @RequestBody InputDto inputDto) {
