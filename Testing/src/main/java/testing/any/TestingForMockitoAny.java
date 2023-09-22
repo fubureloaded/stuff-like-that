@@ -12,7 +12,7 @@ public class TestingForMockitoAny {
     }
 
     public String calculate(String myString) {
-        String newValue = myString; //+"something"
+        String newValue = myString; //+"something";
         return dummyComponent.dummyMethod(newValue);
     }
 }
